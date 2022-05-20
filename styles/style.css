@@ -26,6 +26,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
 /* Navbar */
 .navbar {
   background: var(--main-white);
@@ -79,3 +94,130 @@ body {
 }
 
 /* Navbar */
+
+/* Hero */
+.hero {
+  min-height: calc(100vh - 4rem);
+  background: url(../bg.jpg) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* block, inline, inline-block */
+
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  margin-bottom: 3rem;
+}
+
+.btn-banner {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  background: var(--primary-color);
+  color: var(--main-white);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.8rem;
+  transition: var(--transition);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btn-banner:hover {
+  background: transparent;
+  color: var(--primary-color);
+}
+
+/* Products */
+.products {
+  padding: 4rem 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+}
+
+.products-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.product-btn-cart {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: var(--primary-color);
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  transform: translateX(101%);
+  cursor: pointer;
+}
+
+.product-btn-cart:hover {
+  color: var(--main-white);
+}
+
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+
+.img-container:hover .product-btn-cart {
+  transform: translateX(0);
+}
+
+.product-img {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: var(--transition);
+}
+
+.img-container:hover .product-img {
+  opacity: 0.5;
+}
+
+.product h3 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  letter-spacing: var(--spacing);
+  text-align: center;
+}
+
+.product h4 {
+  margin-top: 0.7rem;
+  letter-spacing: var(--spacing);
+  color: var(--primary-color);
+  text-align: center;
+}
