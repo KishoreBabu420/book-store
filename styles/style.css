@@ -98,7 +98,7 @@ img {
 /* Hero */
 .hero {
   min-height: calc(100vh - 4rem);
-  background: url(../bg.jpg) center/cover no-repeat;
+  background: url(../img/bg.jpg) center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
