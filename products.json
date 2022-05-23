@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "power of subconscious mind",
+        "price": "299",
+        "image": {
+          "file": {
+            "url": "https://res.cloudinary.com/skill-safari/image/upload/v1653316873/bookstore/71sBtM3Yi5L._AC_UL480_FMwebp_QL65__wonffn.webp"
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "wings of fire",
+        "price": "249",
+        "image": {
+          "file": {
+            "url": "https://res.cloudinary.com/skill-safari/image/upload/v1653316873/bookstore/71KKZlVjbwL._AC_UL480_FMwebp_QL65__qymwtw.webp"
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "rich dad poor dad",
+        "price": "249",
+        "image": {
+          "file": {
+            "url": "https://res.cloudinary.com/skill-safari/image/upload/v1653316873/bookstore/81bsw6fnUiL._AC_UY327_FMwebp_QL65__qb0fnm.webp"
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "grandma's Bag of Stories",
+        "price": "349",
+        "image": {
+          "file": {
+            "url": "https://res.cloudinary.com/skill-safari/image/upload/v1653316873/bookstore/81jv44QdNwL._AC_UY327_FMwebp_QL65__doxw7x.webp"
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "scientists and inventors",
+        "price": "399",
+        "image": {
+          "file": {
+            "url": "https://res.cloudinary.com/skill-safari/image/upload/v1653316873/bookstore/81tBg2FRTaL._AC_UY327_QL65__aigpo9.jpg"
+          }
+        }
+      }
+    }
+  ]
+}
